@@ -54,45 +54,16 @@ CLRVersion = '4.0'
 # RequiredModules = @()
 
 # Assemblies that must be loaded prior to importing this module
-RequiredAssemblies = 
-               '.\Microsoft.Azure.Commands.Common.Authentication.Abstractions.dll', 
-               '.\Microsoft.Azure.Commands.Common.Authentication.dll', 
-               '.\Microsoft.Azure.Commands.Common.Authentication.ResourceManager.dll', 
-               '.\Microsoft.Azure.Commands.Common.Authorization.dll', 
-               '.\Microsoft.Azure.Commands.Common.Compute.dll', 
-               '.\Microsoft.Azure.Commands.Common.Graph.RBAC.dll', 
-               '.\Microsoft.Azure.Commands.Common.Network.dll', 
-               '.\Microsoft.Azure.Commands.ResourceManager.Common.dll', 
-               '.\Microsoft.WindowsAzure.Commands.Common.dll', 
-               '.\Microsoft.WindowsAzure.Commands.Common.Storage.dll', 
-               '.\Microsoft.Azure.Commands.Common.Storage.Management.dll', 
-               '.\Microsoft.Azure.Commands.Common.KeyVault.dll', 
-               '.\Microsoft.Azure.Commands.Common.WebSites.dll', 
-               '.\Hyak.Common.dll', '.\Microsoft.ApplicationInsights.dll', 
-               '.\Microsoft.Azure.Common.dll', 
-               '.\Microsoft.Azure.Common.NetFramework.dll', 
-               '.\Microsoft.Azure.KeyVault.Core.dll', 
-               '.\Microsoft.IdentityModel.Clients.ActiveDirectory.dll', 
-               '.\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll', 
-               '.\Microsoft.Rest.ClientRuntime.dll', 
-               '.\Microsoft.Rest.ClientRuntime.Azure.dll', 
-               '.\Microsoft.Rest.ClientRuntime.Azure.Authentication.dll', 
-               '.\Microsoft.Threading.Tasks.dll', 
-               '.\Microsoft.Threading.Tasks.Extensions.dll', 
-               '.\Microsoft.Threading.Tasks.Extensions.Desktop.dll', 
-               '.\Microsoft.WindowsAzure.Management.dll', '.\Newtonsoft.Json.dll', 
-               '.\Newtonsoft.Json.10.dll', '.\System.Net.Http.Extensions.dll', 
-               '.\System.Net.Http.Primitives.dll', 
-               '.\Microsoft.Azure.Commands.Common.Aks.dll'
+RequiredAssemblies = @()
 
 # Script files (.ps1) that are run in the caller's environment prior to importing this module.
 # ScriptsToProcess = @()
 
 # Type files (.ps1xml) to be loaded when importing this module
-TypesToProcess = '.\Microsoft.Azure.Commands.Profile.types.ps1xml'
+TypesToProcess = @()
 
 # Format files (.ps1xml) to be loaded when importing this module
-FormatsToProcess = '.\Microsoft.Azure.Commands.Profile.format.ps1xml'
+FormatsToProcess = @()
 
 # Modules to import as nested modules of the module specified in RootModule/ModuleToProcess
 NestedModules = @()
@@ -101,26 +72,13 @@ NestedModules = @()
 FunctionsToExport = @()
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
-CmdletsToExport = 'Disable-AzureRmDataCollection', 'Disable-AzureRmContextAutosave', 
-               'Enable-AzureRmDataCollection', 'Enable-AzureRmContextAutosave', 
-               'Remove-AzureRmEnvironment', 'Get-AzureRmEnvironment', 
-               'Set-AzureRmEnvironment', 'Add-AzureRmEnvironment', 
-               'Get-AzureRmSubscription', 'Connect-AzureRmAccount', 
-               'Get-AzureRmContext', 'Set-AzureRmContext', 'Import-AzureRmContext', 
-               'Save-AzureRmContext', 'Get-AzureRmTenant', 'Send-Feedback', 
-               'Resolve-AzureRmError', 'Select-AzureRmContext', 
-               'Rename-AzureRmContext', 'Remove-AzureRmContext', 
-               'Clear-AzureRmContext', 'Disconnect-AzureRmAccount', 
-               'Get-AzureRmContextAutosaveSetting', 'Set-AzureRmDefault', 
-               'Get-AzureRmDefault', 'Clear-AzureRmDefault'
+CmdletsToExport = @()
 
 # Variables to export from this module
 # VariablesToExport = @()
 
 # Aliases to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no aliases to export.
-AliasesToExport = 'Add-AzureRmAccount', 'Login-AzAccount', 'Login-AzureRmAccount', 
-               'Remove-AzureRmAccount', 'Logout-AzAccount', 'Logout-AzureRmAccount', 
-               'Select-AzureRmSubscription', 'Resolve-Error', 'Save-AzureRmProfile'
+AliasesToExport = @()
 
 # DSC resources to export from this module
 # DscResourcesToExport = @()
