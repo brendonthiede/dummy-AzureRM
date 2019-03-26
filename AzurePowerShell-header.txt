@@ -1,0 +1,6 @@
+if (-not (Get-Module Az.Accounts -ErrorAction SilentlyContinue)) {
+	Import-Module Az
+}
+if (-not (Get-Alias -name Connect-AzureRmAccount -ErrorAction SilentlyContinue)) {
+    Enable-AzureRmAlias
+}
